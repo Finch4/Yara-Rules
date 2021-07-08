@@ -47,7 +47,6 @@ rule generic_ransomware_note
       $ = "it may cause permanent data loss" ascii wide
       $ = "pay for decryption key" ascii wide
       $ = "You need to buy decryptor" ascii wide
-      $ = "Your files have been encrypted by" ascii wide
       $ = "encrypted by" ascii wide
       $ = "get the decryption password" ascii wide
       $ = "Downloads\\README.txt" ascii wide
