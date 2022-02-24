@@ -1,7 +1,0 @@
-rule test
-{
-  strings:
-    $1 = {458c660fd6459cffd350ffd78bf885ff0f84f70000006a008d8578ffffff506a60576a006a006864000900ff75a4ff1564504000576a0085c07510ffd38b3d70}
-  condition:
-    $1 and uint16(0) == 0x5A4D
-}
