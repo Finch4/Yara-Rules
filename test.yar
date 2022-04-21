@@ -1,7 +1,7 @@
 rule jester_stealer 
 { 
   meta: 
-    description =”Rule for Jester Stealer and Lilith Botnet” 
+    description = "Rule for Jester Stealer and Lilith Botnet"
   strings: 
      $1 = {000511????12????0E0812????12????} 
      $BSJB = {42534A42} 
